@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Growth Graphic</title>
+</head>
+<h1>Berry Information</h1>
+    {% for key, value in berry_data.items() %}
+        <li><strong>{{ key }}:</strong> {{value}}</li>
+    {% endfor %}
+<body>
+    <h1>Growth Histogram</h1>
+    {{ plot_html | safe }}
+</body>
+</html>

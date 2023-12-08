@@ -1,0 +1,6 @@
+/__pycache__
+/.ipynb_checkpoints
+.DS_Store
+/src/__pycache__/app.cpython-310.pyc
+/src/__pycache__/test_app.cpython-310-pytest-7.4.3.pyc
+/tests/__pycache__/test_app.cpython-310-pytest-7.4.3.pyc
