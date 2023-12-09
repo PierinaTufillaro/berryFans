@@ -1,4 +1,4 @@
-# :blueberries: Berry Fans :blueberries:
+#Berry Fans :blueberries:
    API is created to get berries statistics from https://pokeapi.co/docs/v2#berries. 
    
 ## :blueberries: Requirements
