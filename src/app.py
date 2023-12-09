@@ -8,7 +8,7 @@ from io import BytesIO
 import base64
 
 
-app_start = Flask(__name__)
+app_start = Flask(__name__, template_folder='../templates')
 
 def calculate_variance(data):
     """
@@ -131,4 +131,4 @@ def all_berry_stats():
 
 
 if __name__ == '__main__':
-    app_start.run(debug=True)
+    app_start.run(debug=True, port=8000, host="0.0.0.0")
