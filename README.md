@@ -20,12 +20,12 @@
 ## :blueberries: Endpoints 
    - **GET /** Is the main page of the application. It only has a welcome message
    - **GET /allBerryStats** Contains the information of the current berries.
-     Names
-     Min Growth Time
-     Median Growth Time
-     Max Growth Time
-     Variance Growth Time
-     Mean Growth Time
+     Names,
+     Min Growth Time,
+     Median Growth Time,
+     Max Growth Time,
+     Variance Growth Time and
+     Mean Growth Time.
 
    
 ## :blueberries: How to run the tests
